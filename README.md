@@ -6,7 +6,7 @@ simple sample of a slider created with both Angular and jQuery version
 
 ## Quick start
 
-to get start using each version in each its folder
+quick start options:
 
 * install [Nodejs](https://nodejs.org/en/)
 * run `npm install`
