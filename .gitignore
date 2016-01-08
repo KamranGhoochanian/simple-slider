@@ -1,0 +1,6 @@
+*.name
+.idea/misc.xml
+.idea/modules.xml
+.idea/simple-slider.iml
+.idea/vcs.xml
+.idea/workspace.xml

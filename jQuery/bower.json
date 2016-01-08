@@ -1,0 +1,12 @@
+{
+  "name": "SimpleSlider",
+  "authors": [
+    "KamranGhoochanian <Kamran.ghoochanian@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "animate.css": "daneden/animate.css#~3.3.0",
+    "material-design-iconic-font": "~1.1.1"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="reviewApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="public/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="public/vendor/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="public/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Hi</h1>
+
+        <h3>Welcome</h3>
+    </div>
+</div>
+<div class="container">
+    <div class="cards" id="place_card" ng-controller="reviewController">
+        <div class="card" ng-repeat="review in reviews" on-last-repeat>
+            <span class="star {{getStarsClass(review.starRating)}}" ng-bind-html="getStars(review.starRating)"></span>
+            <span class="avatar"><i class="md-person"></i></span>
+            <a href="#" class="name">{{review.fullName}}</a>
+            <span class="title">{{review.reviewTitle}}</span>
+            <span class="desc">{{review.reviewBody}}</span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="public/vendor/jquery/dist/jquery.min.js"></script>
+<script src="public/vendor/angular/angular.min.js"></script>
+<script src="public/scripts/app.js"></script>
+<script src="public/scripts/slider.js"></script>
+</html>

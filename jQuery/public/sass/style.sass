@@ -1,0 +1,83 @@
+.jumbotron
+  background: rgb(255, 175, 53)
+
+.cards
+  margin-top: -80px
+  vertical-align: middle
+  position: relative
+  text-align: center
+
+.card
+  background: #fff
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27)
+  border-radius: 2px
+  width: 550px
+  display: block
+  margin: auto
+  vertical-align: middle
+  position: relative
+  padding-bottom: 15px
+  text-align: left
+  -webkit-transition: all 200ms
+  -moz-transition: all 200ms
+  -ms-transition: all 200ms
+  -o-transition: all 200ms
+  transition: all 200ms
+  .star
+    display: inline-block
+    float: right
+    padding: 20px
+    font-size: 20px
+    &.one
+      color: rgb(217, 30, 37)
+    &.two
+      color: rgb(241, 110, 36)
+    &.three
+      color: rgb(250, 206, 24)
+    &.four
+      color: rgb(112, 172, 66)
+    &.five
+      color: rgb(26, 165, 73)
+  .name
+    display: inline-block
+    padding: 15px 20px 10px
+    font-size: 11px
+    font-weight: bold
+    text-decoration: none
+  .avatar
+    background: #eee
+    font-size: 35px
+    padding: 1px 10px
+    position: absolute
+    border-radius: 50%
+    margin: 10px 0 0 10px
+    display: inline-block
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27)
+    left: 236px
+    top: -43px
+    border: 7px solid #dbdbdb
+  .title, .desc
+    display: block
+    padding: 15px 20px
+  .title
+    font-size: 15px
+  .desc
+    font-size: 12px
+
+@media (max-width: 600px)
+  .cards
+    margin-top: 20px
+  .card
+    width: 350px
+    .star
+      padding: 10px
+    .avatar
+      left: 146px
+
+@media (max-width: 400px)
+  .cards
+    margin-top: 20px
+  .card
+    width: 250px
+    .avatar
+      display: none
